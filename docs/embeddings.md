@@ -28,7 +28,7 @@ You can pass in an optional `model_name` argument, which lets you choose which S
 
 Chroma provides a convenient wrapper around OpenAI's embedding API. This embedding function runs remotely on OpenAI's servers, and requires an API key. You can get an API key by signing up for an account at [OpenAI](https://openai.com/api/).
 
-This embedding function relies on the `opeanai` python package, which you can install with `pip install openai`.
+This embedding function relies on the `openai` python package, which you can install with `pip install openai`.
 
 ```python
 openai_ef = embedding_functions.OpenAIEmbeddingFunction(
